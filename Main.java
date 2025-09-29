@@ -19,6 +19,6 @@ public class Main {
         observacionFinal.tomarDatos(miScanner);
 
         experimento1.informe(observaciónInicial, observacionFinal);
-
+        miScanner.close();
     }
 }
